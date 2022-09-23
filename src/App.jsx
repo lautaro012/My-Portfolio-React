@@ -17,10 +17,9 @@ function App() {
     return (
         <div className="App">
             <Animate to="1" from="0" attributeName="opacity">
-
                 <Particles id="tsparticles" options={particles}  init={particlesInit} loaded={particlesLoaded}/>
-                
-                <header className="App-header">
+                <div className="App-header">
+                    
                     <img src={logo} className="App-logo" alt="logo"/>
                     <p>
                         Edit <code>src/App.js</code> and save to reload.
@@ -44,7 +43,7 @@ function App() {
                     >
                         See Particles samples
                     </a>
-                </header>
+                </div>
             </Animate>
         </div>
     );
