@@ -1,0 +1,14 @@
+.home-conteiner {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: #090909;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth !important;
+
+}
+.string-conteiner {
+
+}

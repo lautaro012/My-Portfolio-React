@@ -1,0 +1,67 @@
+.navbar-conteiner {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    transition: 1s;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-conteiner-below {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    transition: 1s;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid #0000007f;
+}
+
+.navbar-conteiner nav {
+    display: flex;
+    height: 81px;
+    align-items: center;
+    width: 100%;
+}
+.nav-conteiner-below nav {
+    display: flex;
+    height: 81px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navbar-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    right: 0;
+}
+
+.navbar-buttons-below{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    right: 0;
+}
+
+.navbar-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-buttons-below a {
+    text-decoration: none;
+    color: #008bff;
+}
+
+.is-current-below a {
+    border-bottom: 2px solid #008bff;
+}
+
+.is-current a {
+    border-bottom: 2px solid white;
+}

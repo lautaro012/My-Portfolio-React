@@ -13,13 +13,13 @@ export default function Contactme () {
         console.log('enviado a ', email)
     }
     return (
-        <div className='contactme'>
+        <section className='contactme'  id='Contact'>
             <h1>Let's Work Together</h1>
             <p> contact me : </p>
-            <form onsubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <input type='mail' required placeholder={'Email'} onChange={handleChange} />
                 <button type='submit'></button>
             </form>
-        </div>
+        </section>
     )
 }

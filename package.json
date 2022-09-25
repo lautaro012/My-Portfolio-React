@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^5.2.1",
+    "jquery": "^3.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-particles": "^2.3.2",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
+    "react-scrollspy": "^3.4.3",
     "react-smooth": "^2.0.1",
+    "react-typed": "^1.2.0",
     "tslib": "^2.4.0",
     "tsparticles": "^2.3.2",
     "tsparticles-engine": "^2.3.2"

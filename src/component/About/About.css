@@ -1,0 +1,5 @@
+.about-conteiner {
+    height: 100vh;
+    scroll-behavior: smooth !important;
+    background-color: blueviolet;
+}

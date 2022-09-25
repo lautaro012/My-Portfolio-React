@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    scroll-behavior: smooth !important;
 }
 
 .App-logo {
@@ -45,12 +46,13 @@
 }
 
 #tsparticles {
-    position: fixed;
-    height: 100%;
+    position: absolute;
+    height: 111vh;
     width: 100%;
     margin: 0;
     padding: 0;
     left: 0;
     top: 0;
-
+    content-visibility: auto;
+    z-index: 0;
 }
