@@ -20,15 +20,17 @@
 
 .navbar-conteiner nav {
     display: flex;
-    height: 81px;
+    height: 20vh;
     align-items: center;
     width: 100%;
+    transition: 1s;
 }
 .nav-conteiner-below nav {
     display: flex;
-    height: 81px;
+    height: 10vh;
     align-items: center;
     width: 100%;
+    transition: 1s;
 }
 
 
@@ -51,17 +53,48 @@
 .navbar-buttons a {
     text-decoration: none;
     color: white;
+    padding-bottom: 0.5rem;   
+    position: relative; 
 }
 
-.navbar-buttons-below a {
+.navbar-buttons-below li, .navbar-buttons li {
+    color: white;
+    list-style: none;
+}
+
+ 
+.navbar-buttons-below a{
     text-decoration: none;
     color: #008bff;
+    padding-bottom: 0.5rem;
+    position: relative;
 }
 
-.is-current-below a {
-    border-bottom: 2px solid #008bff;
+
+.is-current a::before  {
+    width: 80%;
+    background-color: white;
 }
 
-.is-current a {
-    border-bottom: 2px solid white;
+.is-current-below a::before  {
+    width: 80%;
+    background-color: #008bff ;
 }
+
+
+ a:before {
+    content: "";
+    position: absolute;
+    margin-left: 0;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    background-color: #0078ff;
+  }
+a:hover:before,
+a:focus:before {
+    width: 80%;
+  }
