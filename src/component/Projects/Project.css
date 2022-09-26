@@ -2,4 +2,12 @@
     scroll-behavior: smooth !important;
     height: 100vh;
     background-color: rgba(128, 128, 128, 0.452);
+    z-index: 1;
+}
+
+.cards-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
 }

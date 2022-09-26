@@ -18,7 +18,8 @@ export default function Contactme () {
             <p> contact me : </p>
             <form onSubmit={handleSubmit}>
                 <input type='mail' required placeholder={'Email'} onChange={handleChange} />
-                <button type='submit'></button>
+                <textarea placeholder='Contact whit me'/>
+                <button type='submit'> Send </button>
             </form>
         </section>
     )

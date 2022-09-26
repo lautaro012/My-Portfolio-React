@@ -2,6 +2,7 @@ import Home from './component/Home/Home';
 import Contactme from './component/contactme/contactme';
 import Projects from './component/Projects/Projects';
 import About from './component/About/About';
+import Footer from './component/Footer/Footer';
 
 import NavBar from './component/NavBar/NavBar';
 import './App.css';
@@ -15,6 +16,7 @@ function App() {
                 <About/>
                 <Projects/>
                 <Contactme/>
+                <Footer/>
         </div>
     );
 }

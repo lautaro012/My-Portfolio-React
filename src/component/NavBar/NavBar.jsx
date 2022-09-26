@@ -23,6 +23,10 @@ export default function NavBar () {
                     <li><a href='#Contact'>CONTACT</a></li>
                 </Scrollspy>
             </nav>
+            <label class="toggle">
+                <input type="checkbox" class="toggle__input sr-only"/>
+                <span class="toggle__item"></span>
+            </label>
         </header>
     )
 }

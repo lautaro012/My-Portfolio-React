@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
