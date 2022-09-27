@@ -7,7 +7,7 @@ export default function Cards () {
         open ? setOpen(false) : setOpen(true)
     }  
     return (
-    <div onClick={handleClick} class={open ? "element-card" : "element-card open"}>
+    <div onClick={handleClick} class={!open ? "element-card" : "element-card open"}>
             <div class="front-facing">
                 <h1 class="abr">Cu</h1>
                 <p class="title">Cooper</p> 

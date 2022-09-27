@@ -1,4 +1,5 @@
 import './About.css'
+import desktopman from '../../images/DesktopMan.jpg'
 export default function About () {
 
     return (
@@ -18,6 +19,7 @@ export default function About () {
                             <li>CSS</li>
                         </ul>
                     </div>
+                    <img width={'45%'} src={desktopman} alt='DesktopMan'></img>
                     <div>
                         <p>afsdfasdfds</p>
                     </div>
