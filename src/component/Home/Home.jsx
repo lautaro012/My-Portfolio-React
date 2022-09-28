@@ -20,7 +20,7 @@ export default function Home () {
                 <Particles style={{position:'absolute'}}  id="tsparticles" options={particles}  init={particlesInit} loaded={particlesLoaded}/>
                 <div>
                     <div className='string-conteiner'>
-                        <h1> ROBLES LAUTARO EZEQUIEL </h1>
+                        <h1> Hello, I'm ROBLES LAUTARO </h1>
                         <strong>
                             <Typed
                             strings={[
@@ -28,9 +28,9 @@ export default function Home () {
                             "Back End Developer",
                             "Technical Engineer"
                             ]}
-                            typeSpeed={80}
+                            typeSpeed={50}
                             backDelay={1100}
-                            backSpeed={30}
+                            backSpeed={25}
                             loop
                             />
                         </strong>

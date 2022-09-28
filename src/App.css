@@ -56,3 +56,8 @@
     content-visibility: auto;
     z-index: 0;
 }
+
+.footer-contact-conteiner {
+    background-image: url('https://shcfc.org/wp-content/uploads/2018/07/Footer-Background-min.jpg');
+    color: white;
+}

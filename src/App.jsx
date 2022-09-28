@@ -15,8 +15,10 @@ function App() {
                 <Home/>
                 <About/>
                 <Projects/>
-                <Contactme/>
-                <Footer/>
+                <div className='footer-contact-conteiner'>
+                    <Contactme/>
+                    <Footer/>
+                </div>
         </div>
     );
 }
