@@ -9,6 +9,7 @@
     scroll-behavior: smooth !important;
 
 }
-.string-conteiner {
-
+.string-conteiner span, h1 {
+    font-size: 2.5rem;
+    font-weight:lighter;
 }
